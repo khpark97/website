@@ -1,7 +1,14 @@
 import "./App.css";
+import Heading from "./components/Heading";
+import Section from "./components/Section";
 
 function App() {
-  return <h1>Hi</h1>;
+  return (
+    <>
+      <Heading title={"Hello"} />
+      <Section title={"Title"}>Section</Section>
+    </>
+  );
 }
 
 export default App;
